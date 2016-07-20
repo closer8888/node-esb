@@ -1,0 +1,33 @@
+{
+  "name" : "node-red-esb",
+  "description" : "Nodejs app that makes node-red app more enterprise compatable. \nIt spawns child processes where each child is a new node-red process to be controlled and secured individually.",
+  "version" : "0.0.1",
+  "private" : true,
+  "main" : "./node-red-esb4.js",
+  "author" : {
+    "name" : "Bobby",
+    "email" : "polis@bobbypolis.com",
+    "url" : "http://www.bobbypolis.com"
+  },
+  "keywords" : [ ],
+  "licenses" : {
+    "type" : "none"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git@gitlab.bobbypolis.com:courier.git"
+  },
+  "bugs" : {
+    "url" : "null"
+  },
+  "dependencies" : {
+    "request" : "*",
+    "restify" : "*",
+    "node-red" : "*",
+    "express" : "*",
+    "express-ws" : "*",
+    "http-proxy" : "*",
+    "portscanner" : "*",
+    "socket.io-client": "*"
+  }
+}
