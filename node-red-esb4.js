@@ -28,8 +28,8 @@ var path = require("path");
 var util = require("util");
 var content;
 var conts;
-var ss_db_server = '192.168.1.24';
-var ss_db_pwd = 'dpuser';
+var ss_db_server = '192.168.x.x';
+var ss_db_pwd = 'user';
 try{
     var conts = fs.readFileSync('/SitscapeData/PROD/conf/ss_installation.ini').toString().split("\n");
     var variables = {};
@@ -66,9 +66,9 @@ var portRange = {start:12000, end:22000};
 var RedSettings = {
     mysql: {
         host : ss_db_server,
-        user : "dpuser",
+        user : "user",
         password : ss_db_pwd,
-        database : "sitscape"
+        database : "sit"
     },
     flows : {id : 0},
     storageModule : "mysql"
